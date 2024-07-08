@@ -1,6 +1,8 @@
-# Challenges
-Challenges for Back-end Devs - Helping to improve Software Developers  - 
+# Challenges for Back-end Devs
+Helping to improve Software Developers
 Please Fork this Project to Start these Challenges and Open a Pull Request with the link to your Repo if you are one of my mentees
+
+Before Starting: Please Setup one SonarQube Docker Instance for your challenge project and try to stay with 85% code coverage and no code smells.
 
 
 ## Challenge 1:  CRUD com Testes + Docker File
@@ -44,7 +46,9 @@ Please Fork this Project to Start these Challenges and Open a Pull Request with 
 ### Due date 21/10/2024 22:00 GMT-3 (America/Sao Paulo)
 
 > Ponto Extra:
-> * Requisito Extra BASE: Rate Limiting
+> * Req Extra: Rate Limiting
+
+-------------------------------------------
 
 ## Challenge 3: New Frontier - MonoRepo
 
