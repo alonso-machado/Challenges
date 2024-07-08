@@ -7,6 +7,8 @@ For Design Patterns Bookmark this Amazing Resource: [https://refactoring.guru/de
 
 Before Starting: Please Setup one SonarQube Docker Instance for your challenge project and try to stay with 85% code coverage and no code smells.
 
+**Tip:** Install PODMAN DESKTOP it is 98% of the time better and safer (no daemon and no root) and usually faster then Docker for using Containers.... (Except for Docker Swarm and some Plugins)
+
 
 ## Challenge 1:  CRUD com Testes + Docker File
 
