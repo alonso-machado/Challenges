@@ -36,13 +36,23 @@ Challenges for Back-end Devs - Helping to improve Software Developers
 * Req 4: Github Actions -> deploy project on AWS / AZURE / GCP (Free Tier)
 
 > Next Level:  Challenge BASE +
-> * Req Pleno 1: Benchmark DragonFly and Keydb and ValKey and Redis with your CRUD V2 endopoints using k6 or gatling (Please at least 100k requests for each endpoint for timing)
-> * Req Pleno 2: Um microserviço de autenticacao de admin / users para o CRUD do challenge base requests para https://randomuser.me/ (Salve uns 3 users desse como admin em cache no servico e bd e o restante user normal)
-> * Req Pleno 3: Get All Paged by limit and Offset
+> * Req Mid-Level 1: Benchmark DragonFly and Keydb and ValKey and Redis with your CRUD V2 endopoints using k6 or gatling (Please at least 100k requests for each endpoint for timing)
+> * Req Mid-Level 2: Use RabbitMQ to send messages from CRUD V2 to AUTHENTICATION Service from Challenge 1
+> * Req Mid-Level 3: Get All Paged by limit and Offset
 
-### Até Quarta-feira dia 21/10/2024 as 22:00 de SP
+### Due date 21/10/2024 22:00 GMT-3 (America/Sao Paulo)
 
 > Ponto Extra:
 > * Requisito Extra BASE: Rate Limiting
 
-## Challenge 3: ?
+## Challenge 3: New Frontier - MonoRepo
+
+* Req 1: Create a new CRUD Microservice in the same Github Project (MonoRepo) and this new will comunicate with the Challenge 1 via tRPC or Protobuff 
+* Req 2: Architecture Image on README
+* Req 3: Kubernetes with Api Gateway and Loadbalancer and 2 Pods of each CRUD (Challenge 1 and Challenge 3) 
+
+> Next Level:  Challenge BASE +
+> * Req Mid-Level 1: Use KEDA to scale horizontly the Application
+> * Req Mid-Level 2: Use KEDA to scale horizontly the Application
+
+### Due date 10/12/2024 22:00 GMT-3 (America/Sao Paulo)
