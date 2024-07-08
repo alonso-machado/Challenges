@@ -1,5 +1,6 @@
 # Challenges
-Challenges for Back-end Devs - Helping to improve Software Developers 
+Challenges for Back-end Devs - Helping to improve Software Developers  - 
+Please Fork this Project to Start these Challenges and Open a Pull Request with the link to your Repo if you are one of my mentees
 
 
 ## Challenge 1:  CRUD com Testes + Docker File
