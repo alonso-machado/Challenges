@@ -10,9 +10,9 @@ Before Starting: Please Setup one SonarQube Docker Instance for your challenge p
 **Tip:** Install PODMAN DESKTOP it is 98% of the time better and safer (no daemon and no root) and usually faster then Docker for using Containers.... (Except for Docker Swarm and some Plugins)
 
 
-## Challenge 1:  CRUD com Testes + Docker File
+## Challenge 1:  CRUD  Tests + DockerFile
 
-### Requisito BASE: Criar uma web API CRUD em qualquer linguagem de programaçao com BD web (Usar neon, turso, supabase, planetscale, mongoAtlas ou outra..).
+### Requisito BASE: Criar uma web API CRUD em qualquer linguagem de programaçao com BD web (Usar neon, turso, supabase, planetscale, mongoAtlas ou outra..) sobre um tema de seu interesse (Café, Academia, Pedidos no Restaurante)
 
 * Requisito 1:  Dockerfile para subir o localmente o projeto.
 * Requisito 2:  Testes Unitários e Integrados (Integrados de preferencia mockando só o DB.
