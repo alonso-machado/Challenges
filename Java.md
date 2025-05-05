@@ -110,3 +110,9 @@ Try-with-resources é um Try-Catch com AutoCloseable os recursos declarados no t
 try(FileReader r = new FileReader("")){ 
 }catch(IOException e){ // }
 }
+
+Testes
+Quais ferramentas são as mais usadas para testes em Java?
+JUnit para teste unitário.
+Mockito para Mocks em testes.
+TestContainers para testes Integrados.
