@@ -42,3 +42,7 @@ Usar a nova Annotation @CustomValidator
 Como funciona o Tratamento de Exceções com Advices no Spring Boot?
 @ControllerAdvice
 @ExceptionHandler(NomeException.class)
+
+O que é e Como resolver o problema N+1 do hibernate com Spring Boot?
+O Problema N+1 ocorre quando uma consulta principal resulta em mais N consultas no BD para carregar dados de outras entidades relacionadas afetando muito a performance.
+Como resolver = @EntityGraph ou @Query manual com JOIN FETCH ou raramente tentar (fetch = FetchType.LAZY)
