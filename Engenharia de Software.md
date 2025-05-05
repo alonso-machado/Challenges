@@ -1,24 +1,24 @@
 Quantos são e quais são os Pilares da orientação a Objeto:
 São 4 pilares, Abstração, Herança, Encapsulamento e Polimorfismo
 
-SOLID:
+#SOLID:
 Single Responsability Principle / SRP (Princípio da Responsabilidade Única) - Cada classe resolve somente um problema específico
 Open Closed Principle / OCP (Princípio Aberto/Fechado) - Classes devem ser extendidas e não modificadas para não quebrar comportamentos. Ex: Usar subclasses e Heranças.
 Liskov Substitution Principle / LSP (Princípio de Substituição de Liskov) (Barbara Liskov) Subclasse deve substituir a super classe (Classe que ela herdou) para não quebrar contratos.
 Interface Segregation Principle / ISP (Princípio de Segregação de Interfaces) Interfaces específicas para que as classes implementem somente o necessário. Ex: Galinha extends Ave, AveVoo
 Dependency Inversion Principle / DIP (Princípio de Inversão de Dependência) Classe deve depender de abstrações e não implementações. Isso serve para facilitar mudanças nas camadas mais abaixo sem  alterar código exemplo clássico: Alterar o Banco de Dados.
 
-Clean Code:
+#Clean Code:
 Código Legível (Tentar deixar o seu código compreensível afinal nós DEVs lemos de 8 a 10X mais código que escrevemos)
 Funções curtas e focadas (Single Responsability Principle do SOLID) 
 Nomes Significativos de variáveis e funções
 Testes Automatizados
 DRY (Não repetir código / reusar código)
 
-O que é MVC?
+#O que é MVC?
 Model-View-Controller é um padrão de arquitetura de software, onde Model representa os dados, View é a visão (Front-end) e Controller é o como os dados chegam da View para a Model. normalmente REST, mas existe SOAP e GraphQL
 
-Compare os padrões arquiteturais MVC, MVP e MVVM?
+#Compare os padrões arquiteturais MVC, MVP e MVVM?
 Model-View-Controller e Model-View-Presenter são similares a diferença está na VIEW no caso do MVP a View deve ser passiva, não deve conter lógica, apenas apresentar dados e receber entradas do usuário e no MVC a View é mais Ativa pode ter lógicas de interação.
 Model-View-ViewModel usa Data Binding que permite que a View e o ViewModel se comuniquem de forma automática e bidirecional e é mais usado em MOBILE.
 
