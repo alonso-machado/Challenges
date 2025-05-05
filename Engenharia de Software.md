@@ -1,5 +1,5 @@
-Quantos são e quais são os Pilares da orientação a Objeto:
-São 4 pilares, Abstração, Herança, Encapsulamento e Polimorfismo
+# Quantos são e quais são os Pilares da orientação a Objeto:
+São 4 pilares. Abstração, Herança, Encapsulamento e Polimorfismo
 
 # SOLID:
 Single Responsability Principle / SRP (Princípio da Responsabilidade Única) - Cada classe resolve somente um problema específico
@@ -30,10 +30,10 @@ Fila = FIFO (First In First Out)
 
 # O que é versionamento de código? Quais ferramentas existem? E principais implementações delas?
 Versionamento de código é o processo de gerenciar mudanças em arquivos de código-fonte ao longo do tempo.
-GIT - É Distribuído e Open Source, GitHub , GitLab e Bitbucket
-Mercurial - É Distribuído e Open Source, Normalmente on-premise.
-SVN - É Centralizado, normalmente on-premise.
-Sappling - Closed-Source META/FACEBOOK.
+** GIT - É Distribuído e Open Source, GitHub , GitLab e Bitbucket
+** Mercurial - É Distribuído e Open Source, Normalmente on-premise.
+** SVN - É Centralizado, normalmente on-premise.
+** Sappling - Closed-Source META/FACEBOOK.
 
 # O que é uma Pull Request (PR) e Stacked Diff?
 PR é uma solicitação de Merge para a uma outra Brach onde seu código será revisado e possivelmente passarão testes automatizados na pipeline...
